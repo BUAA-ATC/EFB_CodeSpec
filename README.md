@@ -4,8 +4,19 @@ code specification for EFB project
 # 编码规范
 默认参考Apple[Coding Guidelines for Cocoa](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)以及[Github](https://github.com/github/objective-c-style-guide)的补充，除非以下特别声明。
 
+# 类型
+尽量使用Foundation类型
+* int -> NSInteger
+* unsigned -> NSUInteger
+* float -> CGFloat
+* 动画时间 -> NSTimeInterval
+* …
+
 # 常量
 k+Pascal命名
+
+# 属性语义顺序
+原子性 内存管理 读写/读写方法名
 
 # 文件、类
 * 顶层模块以EFB前缀。
