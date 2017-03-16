@@ -16,7 +16,7 @@ code specification for EFB project
 k+Pascal命名
 
 # 属性语义顺序
-原子性 内存管理 读写/读写方法名
+原子性 内存管理 读写/读写方法名 Nullability
 
 # 文件、类
 * 顶层模块以EFB前缀。
